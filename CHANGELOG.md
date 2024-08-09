@@ -1,5 +1,31 @@
 # Changelog
 
+## [0.95.0](https://github.com/wirespecter/reana-workflow-engine-cwl/compare/0.9.3...0.95.0) (2024-07-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* **python:** drop support for Python 3.6 and 3.7
+
+### Build
+
+* **docker:** pin setuptools to v70 ([#284](https://github.com/wirespecter/reana-workflow-engine-cwl/issues/284)) ([6dc9f26](https://github.com/wirespecter/reana-workflow-engine-cwl/commit/6dc9f269f613d8bf925a94cef01b908c4a07ad7c))
+* **python:** add minimal `pyproject.toml` ([#284](https://github.com/wirespecter/reana-workflow-engine-cwl/issues/284)) ([8523d8a](https://github.com/wirespecter/reana-workflow-engine-cwl/commit/8523d8aa50e79475fc041ee311e1bbf583d02a4f))
+* **python:** drop support for Python 3.6 and 3.7 ([#275](https://github.com/wirespecter/reana-workflow-engine-cwl/issues/275)) ([db5508d](https://github.com/wirespecter/reana-workflow-engine-cwl/commit/db5508d4d094dbbd86f19676ef37d9a03eb5f078))
+* **python:** remove deprecated `pytest-runner` ([#284](https://github.com/wirespecter/reana-workflow-engine-cwl/issues/284)) ([bcf5785](https://github.com/wirespecter/reana-workflow-engine-cwl/commit/bcf5785318fab66d05842bebde59d027f9eb6590))
+* **python:** use optional deps instead of `tests_require` ([#284](https://github.com/wirespecter/reana-workflow-engine-cwl/issues/284)) ([7b44979](https://github.com/wirespecter/reana-workflow-engine-cwl/commit/7b44979ea70f87dcbcfcba2370b8885074451fea))
+
+
+### Continuous integration
+
+* **actions:** update GitHub actions due to Node 16 deprecation ([#271](https://github.com/wirespecter/reana-workflow-engine-cwl/issues/271)) ([6c04bb8](https://github.com/wirespecter/reana-workflow-engine-cwl/commit/6c04bb81f1624ba72e667aa11318feb1f58e8fa4))
+* **pytest:** invoke `pytest` directly instead of `setup.py test` ([#284](https://github.com/wirespecter/reana-workflow-engine-cwl/issues/284)) ([9e42a81](https://github.com/wirespecter/reana-workflow-engine-cwl/commit/9e42a81bd774143b859a1be28959cd936db5a64b))
+
+
+### Chores
+
+* **master:** release 0.95.0-alpha.1 ([f528ba3](https://github.com/wirespecter/reana-workflow-engine-cwl/commit/f528ba357273d14d459b3b35722e71deb22ee9c2))
+
 ## [0.9.3](https://github.com/reanahub/reana-workflow-engine-cwl/compare/0.9.2...0.9.3) (2024-03-04)
 
 
